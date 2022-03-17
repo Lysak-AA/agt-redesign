@@ -3,10 +3,10 @@ module.exports = {
   host: process.env.HOST || "localhost",
   db: {
     database: "agt_db",
-    port: process.env.DB_PORT || 8889,
+    port: process.env.DB_PORT || 3306,
     host: process.env.DB_HOST || "localhost",
     user: "root",
-    password: "root",
+    password: "",
   },
   authentication: {
     jwtSecret: process.env.JWT_SECRET || "secret",

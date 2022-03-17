@@ -8,7 +8,7 @@ const userAgents = {
         },
         {
             name: "agent",
-            type: "VARCHAR(1000)"
+            type: "VARCHAR(300)"
         },
     ],
     primary: "id",
