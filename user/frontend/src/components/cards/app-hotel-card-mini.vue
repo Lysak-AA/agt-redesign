@@ -1,7 +1,7 @@
 <template>
     <div class="hotel-card-mini" v-if="hotel" @click="$emit('action')">
         <div class="hotel-card-mini__image">
-            <img :src="hotel.images[0]" alt="">
+            <img :src="hotel.images[0]">
         </div>
         <div class="hotel-card-mini__title">{{ hotel.name }}</div>
         <app-hotel-rating :stars="hotel.desc.Звёздность" />
